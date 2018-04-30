@@ -76,6 +76,6 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
-playbook.retry
+*.retry
 tbl_user.sql
 *.swp
