@@ -30,7 +30,7 @@ class ExampleInventory(object):
         else:
             self.inventory = self.empty_inventory()
 
-        print json.dumps(self.inventory);
+        print(json.dumps(self.inventory))
 
     # Example inventory for testing.
     def example_inventory(self):
@@ -69,7 +69,7 @@ class ExampleInventory(object):
             }
         }
 
-    # Empty inventory for testing.
+    # Empty inventory for testing purpose.
     def empty_inventory(self):
         return {'_meta': {'hostvars': {}}}
 

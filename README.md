@@ -1,5 +1,4 @@
-# apollo-ansible-dynamic-invent
+# ansible-dynamic-inventory
 
-## dynamic inventory commands
- `ansible-playbook playbook -i get_inventory.py`  
- `./get_inventory --list`
+## Command
+ ```ansible-playbook playbook -i get_inventory.py ./get_inventory --list ```
