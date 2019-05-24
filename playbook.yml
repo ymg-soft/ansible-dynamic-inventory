@@ -8,7 +8,7 @@
   - name: Run updatedb
     command: /usr/bin/updatedb
     async: 400
-    poll: 10
+    poll: 0
 
   - name: ping
     ping:
